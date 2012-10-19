@@ -3,4 +3,5 @@
 .*.sw?
 /.gdb_history
 /capture
+/video.*
 Session.vim
