@@ -1,0 +1,6 @@
+*.d
+*.o
+.*.sw?
+/.gdb_history
+/capture
+Session.vim
