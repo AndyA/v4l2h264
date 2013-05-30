@@ -5,7 +5,7 @@ VPATH = ../common
 CFLAGS=-Wall -g3 `pkg-config --cflags libv4l2`
 LDFLAGS=-lc -lm -lpthread -lasound `pkg-config --libs libv4l2`
 
-BINS=capture
+BINS=v4l2h264
 BINOBJS=$(addsuffix .o,$(BINS))
 MISCOBJS=
 OBJS=$(BINOBJS) $(MISCOBJS)
