@@ -2,6 +2,6 @@
 *.o
 .*.sw?
 /.gdb_history
-/capture
+/v4l2h264
 /video.*
 Session.vim
